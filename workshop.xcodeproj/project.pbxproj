@@ -11,6 +11,7 @@
 		9BA6859F2B1FE1360029D10F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA6859E2B1FE1360029D10F /* ContentView.swift */; };
 		9BA685A12B1FE1370029D10F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA685A02B1FE1370029D10F /* Assets.xcassets */; };
 		9BA685A42B1FE1380029D10F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA685A32B1FE1380029D10F /* Preview Assets.xcassets */; };
+		9BA685AE2B1FEB280029D10F /* UITRY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA685AD2B1FEB280029D10F /* UITRY.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9BA6859E2B1FE1360029D10F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BA685A02B1FE1370029D10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA685A32B1FE1380029D10F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9BA685AD2B1FEB280029D10F /* UITRY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITRY.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,8 @@
 			children = (
 				9BA6859C2B1FE1360029D10F /* workshopApp.swift */,
 				9BA6859E2B1FE1360029D10F /* ContentView.swift */,
+				9BA685AC2B1FEA7E0029D10F /* logica */,
+				9BA685AA2B1FEA350029D10F /* vistas */,
 				9BA685A02B1FE1370029D10F /* Assets.xcassets */,
 				9BA685A22B1FE1380029D10F /* Preview Content */,
 			);
@@ -65,6 +69,21 @@
 				9BA685A32B1FE1380029D10F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9BA685AA2B1FEA350029D10F /* vistas */ = {
+			isa = PBXGroup;
+			children = (
+				9BA685AD2B1FEB280029D10F /* UITRY.swift */,
+			);
+			path = vistas;
+			sourceTree = "<group>";
+		};
+		9BA685AC2B1FEA7E0029D10F /* logica */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = logica;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BA6859F2B1FE1360029D10F /* ContentView.swift in Sources */,
+				9BA685AE2B1FEB280029D10F /* UITRY.swift in Sources */,
 				9BA6859D2B1FE1360029D10F /* workshopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
